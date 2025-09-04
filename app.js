@@ -33,5 +33,5 @@ function sortearAmigo(){
     let indiceSorteado = Math.floor(Math.random() * amigos.length);
     let amigoSorteado = amigos[indiceSorteado];
 
-    resultado.textContent = ('O amigo secreto sorteado é:' + amigoSorteado + '!');
+    resultado.textContent = ('O amigo secreto sorteado é: ' + amigoSorteado + '!');
 }
